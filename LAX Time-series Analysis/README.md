@@ -6,10 +6,27 @@ The overall goal is to practice and understand fundamental machine learning and 
 
 ### Overview: 
 
-The Script ()
+[Time_Series_Notebook](https://github.com/ivanmu-1/Python-Portfolio/blob/main/LAX%20Time-series%20Analysis/notebook/Final_Time_Series.ipynb)
 
-We first begin with a basic overview of the data, examining its contents before diving into Pandas analysis and Matplotlib visualizations. Through these visualizations, we apply statistical modeling techniques to uncover underlying trends, including seasonal patterns and the overreliance on specific terminals such as the TBIT terminal. To achieve this, we aggregate the total traffic data into a unified monthly count.
+This project analyzes airport traffic data using Python, Pandas, Matplotlib, and statistical time-series modeling techniques. We begin with an exploratory overview of the dataset, examining traffic trends and terminal usage before moving into visualization and forecasting. Using Pandas and Matplotlib, we generate visualizations to identify underlying trends, seasonal behavior, and potential overreliance on specific terminals such as TBIT. Monthly traffic totals are aggregated to create a unified time-series dataset for analysis.
 
-Before moving on to modeling, we test the data for stationarity using both the Autocorrelation Function (ACF) and p-value–based statistical tests, such as the Augmented Dickey-Fuller (ADF) test. Additionally, we create further visualizations, including seasonal decomposition plots and simple moving average graphs, to confirm the presence of seasonality and evaluate stationarity.
+Before forecasting, we evaluate stationarity using:
 
-After confirming stationarity, we import the necessary frameworks and libraries from statsmodels, including SARIMAX, as well as auto_arima for parameter optimization, and begin the forecasting process. Due to SARIMAX’s ability to effectively handle seasonal and stationary time-series data, we use it to model and forecast airport traffic trends while accounting for both seasonal variation and long-term patterns in the dataset.
+Autocorrelation Function (ACF) analysis
+Augmented Dickey-Fuller (ADF) statistical testing
+Seasonal decomposition plots
+Simple moving average visualizations
+
+After confirming stationarity and seasonality characteristics, we implement time-series forecasting models using the statsmodels framework, including SARIMAX, along with auto_arima for parameter optimization. Because SARIMAX effectively handles seasonal and stationary time-series data, it was selected to model and forecast airport traffic trends while accounting for both long-term patterns and seasonal variation within the dataset. The final model produces forecasts that closely follow historical traffic behavior and observed seasonal trends, demonstrating strong predictive performance on the dataset.
+
+## Tech Stack
+- Python
+- Pandas
+- Matplotlib
+- Statsmodels
+- pmdarima
+- NumPy
+
+## Results
+
+Below is the listed final report
