@@ -19,7 +19,7 @@ Simple moving average visualizations
 
 After confirming stationarity and seasonality characteristics, we implement time-series forecasting models using the statsmodels framework, including SARIMAX, along with auto_arima for parameter optimization. Because SARIMAX effectively handles seasonal and stationary time-series data, it was selected to model and forecast airport traffic trends while accounting for both long-term patterns and seasonal variation within the dataset. The final model produces forecasts that closely follow historical traffic behavior and observed seasonal trends, demonstrating strong predictive performance on the dataset.
 
-## Tech Stack
+### Tech Stack:
 - Python
 - Pandas
 - Matplotlib
@@ -27,6 +27,5 @@ After confirming stationarity and seasonality characteristics, we implement time
 - pmdarima
 - NumPy
 
-## Results
+#### Results:
 
-Below is the listed final report
