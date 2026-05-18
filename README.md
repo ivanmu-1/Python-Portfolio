@@ -7,7 +7,7 @@ This portfolio showcases a collection of Python-based data science projects, hig
 ### Cal Poly Pomona Professor Analysis
 
 **Description:**  
-A Python ETL project that performs web scraping using BeautifulSoup to extract data from websites, transforms the data with Pandas through cleaning, formatting, structuring, and exploratory visualization using Seaborn and Matplotlib, and then writes the transformed data into an SQL script for further analysis and insight generation 
+A Python ETL project that performs web scraping using BeautifulSoup to extract data from websites, transforms the data with Pandas through cleaning, formatting, structuring, and exploratory visualization using Seaborn and Matplotlib, and then writes the transformed data into an SQL script for further analysis and insights.
 
 [View the Cal Poly Pomona Professor Project](https://github.com/ivanmu-1/Cal-Poly-Pomona-Professor-Analysis)
 
@@ -16,7 +16,7 @@ A Python ETL project that performs web scraping using BeautifulSoup to extract d
 ### NHC Healthcare Analysis
 
 **Description:**  
-An exploratory data analysis project using Pandas, Matplotlib, and Seaborn to uncover trends and insights from healthcare data. The project includes interactive plots and practical exercises in data wrangling, analysis, visualization, and forecasting, all aimed at deriving insights from healthcare datasets.
+An exploratory data analysis project using Pandas, Matplotlib, and Seaborn to uncover trends and insights from healthcare data. The project includes interactive plots and practical exercises in data wrangling, analysis, visualization, and forecasting, aimed at deriving insights from healthcare datasets.
 
 [View the NHC Healthcare Analysis Project](https://github.com/ivanmu-1/Python-Portfolio/tree/main/NHC%20Healthcare%20Analysis)
 
@@ -25,7 +25,7 @@ An exploratory data analysis project using Pandas, Matplotlib, and Seaborn to un
 ### Semantic Book Recommender with LLM's
 
 **Description:**  
-A semantic book recommendation project using Natural Language Processing, Large Language Models, and machine learning to suggest books based on the meaning and emotional tone of user queries. The project includes semantic search with vector embeddings, zero-shot text classification, and sentiment analysis, all integrated into an interactive Gradio-based web app for real-time, personalized recommendations
+A semantic book recommendation project using Natural Language Processing, Large Language Models, and machine learning to suggest books based on the meaning and emotional tone of user queries. The project includes semantic search, zero-shot text classification, and sentiment analysis, all integrated into an interactive Gradio-based web app for personalized recommendations
 
 [View the Semantic Book Recommender with LLM's Project](https://github.com/ivanmu-1/Python-Portfolio/tree/main/Semantic%20Book%20Recommender)
 
